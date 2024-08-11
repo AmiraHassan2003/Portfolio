@@ -234,15 +234,37 @@ footer{
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    /* transition: all .4s ease-in-out; */
 }
 
-.project__card img{
+/* .project__card img{
     transition: scale 0.3s;
 }
 
 .project__card:hover img{
     scale: 1.1;
+} */
+
+.project__card .overlay{
+    background-color: #000000ab;
+    height: 100%;
+    /* display: none; */
+    width: 53%;
+    position: absolute;
+    transition: all .4s ease-in-out;
 }
+.overlay p{
+    margin: 20% 0 0 6%;
+    font-weight: 700;
+    font-size: 17px;
+}
+.project__card:hover .overlay{
+    /* display: block; */
+    width: 100%;
+}
+
+
 
 .footer__container{
     display: grid;
@@ -305,6 +327,8 @@ footer{
 .footer__form button{
     width: max-content;
 }
+
+
 
 /* Media queries */
 @media (min-width: 640px){
