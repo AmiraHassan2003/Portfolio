@@ -1,8 +1,8 @@
 
-var projects = ['E-commerce-vanillaJS.png', 'Kasper.png'];
-var altImg = ['E-commerce-vanillaJS', 'Kasper'];
-var links = ['E-commerce-vanillaJS/', 'Kasper/'];
-var titles = ['E-commerce-vanillaJS', 'Kasper'];
+var projects = ['E-commerce-vanillaJS.png', 'Kasper.png', 'todoList.png'];
+var altImg = ['E-commerce-vanillaJS', 'Kasper', 'TodoList'];
+var links = ['E-commerce-vanillaJS/', 'Kasper/', 'TodoList/'];
+var titles = ['E-commerce-vanillaJS', 'Kasper', 'TodoList'];
 
 var project__grid = document.getElementById("project__grid");
 var image = document.createElement('img');
