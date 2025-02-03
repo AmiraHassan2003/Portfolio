@@ -15,7 +15,7 @@ projects_JavaScript.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_JavaScript[i]}</p>
                 </div>
-                <img src="../assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
+                <img src="assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
             </div>
         </a>`;
     }
@@ -26,7 +26,7 @@ projects_JavaScript.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_JavaScript[i]}</p>
                 </div>
-                <img src="../assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
+                <img src="assets/native_js/${project}" alt="${altImg_JavaScript[i]}">
             </div>
         </a>`;
     }
@@ -51,7 +51,7 @@ projects_django.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_django[i]}</p>
                 </div>
-                <img src="../assets/django/${project}" alt="${altImg_JavaScript[i]}">
+                <img src="assets/django/${project}" alt="${altImg_JavaScript[i]}">
             </div>
         </a>`;
         i++;
@@ -73,7 +73,7 @@ projects_cSharp.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_cSharp[i]}</p>
                 </div>
-                <img src="../assets/CSharp/${project}" alt="${altImg_cSharp[i]}">
+                <img src="assets/CSharp/${project}" alt="${altImg_cSharp[i]}">
             </div>
         </a>`;
         i++;
@@ -95,7 +95,7 @@ projects_net.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_net[i]}</p>
                 </div>
-                <img src="../assets/.net/${project}" alt="${altImg_net[i]}">
+                <img src="assets/.net/${project}" alt="${altImg_net[i]}">
             </div>
         </a>
         <span>
@@ -121,7 +121,7 @@ projects_springboot.forEach(project => {
                 <div class = "overlay">
                     <p>${titles_springboot[i]}</p>
                 </div>
-                <img src="../assets/Spring_boot/${project}" alt="${altImg_springboot[i]}">
+                <img src="assets/Spring_boot/${project}" alt="${altImg_springboot[i]}">
             </div>
         </a>`;
         i++;
