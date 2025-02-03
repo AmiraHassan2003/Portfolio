@@ -84,7 +84,6 @@ var projects_net = ['newspaper.png', 'company.png'];
 var altImg_net = ['newspaper', 'company'];
 var links_net = ['Newspaper', 'Company'];
 var titles_net = ['Newspaper', 'Company'];
-var desc_net = ['Dot Net, MVC, Graduation Project at ITI']
 var net__grid = document.getElementById("net__grid");
 net__grid.innerHTML = '';
 var i = 0;
@@ -97,10 +96,7 @@ projects_net.forEach(project => {
                 </div>
                 <img src="assets/.net/${project}" alt="${altImg_net[i]}">
             </div>
-        </a>
-        <span>
-            ${desc_net[i]}
-        </span>`
+        </a>`
         ;
         i++;
 });
