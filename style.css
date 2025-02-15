@@ -147,32 +147,6 @@ header .tracks{
     color: gray;
 }
 
-/* .action__btns .video{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    cursor: pointer;
-}
-
-.action__btns .video .play{
-    height: 50px;
-    width: 50px;
-    display: grid;
-    place-content: center;
-    font-size: 1.5rem;
-    border-radius: 100%;
-    background-color: var(--secondary-color);
-    transition: .3s;
-}
-
-.action__btns .video span{
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-.action__btns .video:hover .play{
-    background-color: var(--secondary-color-dark);
-} */
 
 .about,
 .project{
