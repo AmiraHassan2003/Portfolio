@@ -125,3 +125,55 @@ projects_springboot.forEach(project => {
 
 
 
+var certificate_links = 
+    [
+        '.Net/Full_stack%20Using%20.Net.jpg', 
+        'DJango/Full_stack%20Using%20Python.jpg', 
+        'DJango/Python%20Programming%20Basics.pdf',
+        'TypeScript%20Foundamentals.pdf',
+        'FullStack/Modern%20JS.pdf',
+        'FullStack/Javascript.pdf',
+        'HTML%20%26%20CSS.pdf',
+    ];
+
+var certificate_titles = 
+    [
+        'Full-Stack Web Development using .Net (ITI)', 
+        'Full-Stack Web Development using Python (ITI)',
+        'Python Programming Basic (mahara-tech)',
+        'TypeScript Fundamentals (mharatech)',
+        'Modern JavaScript (mahara-tech)',
+        'JavaScript (mahara-tech)',
+        'HTML & CSS (mahara-tech)',
+
+    ];
+
+var certificate_desc = 
+[
+    'finished a full-stack development course that covered database integration with.NET technologies, back-end development, and MVC architecture. acquired hands-on expertise in developing web applications that are scalable',
+    'finished a full-stack development course with an emphasis on database integration using Django, MVC architecture, and back-end programming. developed practical knowledge in building reliable and dynamic web apps.',
+    'User completed a foundational Python programming course, covering variables, data types, loops, functions, and algorithms, with hands-on experience in solving problems and building applications.',
+    'User completed a TypeScript course, learning types, interfaces, classes, and modules, with hands-on experience in writing type-safe code and integrating it with JavaScript.',
+    'User completed a course on advanced JavaScript features, including ES6+, asynchronous programming, and best practices for writing clean, efficient, and maintainable code.',
+    'User completed a course in JavaScript, covering functions, loops, DOM manipulation, and event handling, with hands-on experience in building interactive web applications and improving client-side functionality.',
+    'User completed a course in HTML and CSS, gaining hands-on experience in building responsive web pages, structuring content with HTML, and styling with CSS.',
+
+];
+
+
+
+var certification__grid = document.getElementById("certification__grid");
+certification__grid.innerHTML = '';
+var i = 0;
+certificate_titles.forEach(certificate => {
+    certification__grid.innerHTML += `
+        <div class="certification__card">
+            <h4><a style="color: #FF6B35" href="https://github.com/AmiraHassan2003/Certificates/blob/main/FullStack/${certificate_links[i]}">${certificate}</a></h4>
+            <p>
+            ${certificate_desc[i]}
+            </p>
+        </div>`
+        i++;
+});
+
+
