@@ -134,6 +134,7 @@ var certificate_links =
         'FullStack/Modern%20JS.pdf',
         'FullStack/Javascript.pdf',
         'HTML%20%26%20CSS.pdf',
+        'Mastering_MYSQL.pdf',
     ];
 
 var certificate_titles = 
@@ -145,6 +146,7 @@ var certificate_titles =
         'Modern JavaScript (mahara-tech)',
         'JavaScript (mahara-tech)',
         'HTML & CSS (mahara-tech)',
+        'Mastering MYSQL (Udemy)',
 
     ];
 
@@ -157,6 +159,7 @@ var certificate_desc =
     'User completed a course on advanced JavaScript features, including ES6+, asynchronous programming, and best practices for writing clean, efficient, and maintainable code.',
     'User completed a course in JavaScript, covering functions, loops, DOM manipulation, and event handling, with hands-on experience in building interactive web applications and improving client-side functionality.',
     'User completed a course in HTML and CSS, gaining hands-on experience in building responsive web pages, structuring content with HTML, and styling with CSS.',
+    'Gained expertise in MySQL database creation, management, and query optimization. Learned to design efficient relational databases, write complex SQL queries, and manage data effectively using MySQL.',
 
 ];
 
