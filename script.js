@@ -80,10 +80,10 @@ projects_cSharp.forEach(project => {
 });
 
 
-var projects_net = ['newspaper.png', 'company.png'];
-var altImg_net = ['newspaper', 'company'];
-var links_net = ['Newspaper', 'Company'];
-var titles_net = ['Newspaper', 'Company'];
+var projects_net = ['newspaper.png', 'company.png', 'E-Commerce-APIs.png'];
+var altImg_net = ['newspaper', 'company', 'E-Commerce'];
+var links_net = ['Newspaper', 'Company', 'E-Commerce_APIs'];
+var titles_net = ['Newspaper', 'Company', 'E-Commerce_APIs'];
 var net__grid = document.getElementById("net__grid");
 net__grid.innerHTML = '';
 var i = 0;
